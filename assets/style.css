@@ -1,43 +1,45 @@
 header{
     background:rgba(28, 69, 135, 1);
     color:whitesmoke;
-    height: 6em;
+    height: 8rem;
     text-align: center;
     border:1px solid black;
 }
 h1{
     text-align:center;
-    padding-bottom:2em;
+    
 }
 .content{
     display:inline-block;
-    margin-bottom:15em;
+    margin-bottom:15rem;
 }
 .content-title{
     margin-top:5%;
     border-top:15px solid rgba(207, 225, 242, 1);
 }
 .main-content{
+    position:relative;
     width:40%;
     float:left;
-    margin-left:30em;
+    margin-left:30rem;
+    padding:5px;
 
     
 }
 .sidebar{
 
-    margin-top:5em;
+    margin-top:7rem;
     text-align:left;
     
     float:right;
     width:15%;
-    margin-right:5em;
+    margin-right:5rem;
    
 }
 img{
-    margin-right:2em;
+    margin-right:2rem;
     width:100%;
-    height:7em;
+    height:12rem;
 }
 /* BOX MODEL */
 footer{
@@ -45,6 +47,6 @@ footer{
     position:absolute;
     bottom: 0;
     width: 100%;
-    height: 5em;
+    height: 5rem;
 
     }
